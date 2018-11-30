@@ -1,3 +1,6 @@
+body {
+	margin: 0px;
+}
 .container {
 	display: flex; /*tot ce este in acest container face parte din flexbox, afiseaza flexbox*/
 	/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
@@ -13,12 +16,16 @@ h1 {
 	border-right: 2px solid pink
 	width: 400px;
 	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin top: : 10px;
 }
 img {
 	width: 450px;
 	height: 300px;
 	margin: 10px;
+transition: all 1s;
 
-
-
+}
+img:hover{
+	transform: scale(1.1);
 }
